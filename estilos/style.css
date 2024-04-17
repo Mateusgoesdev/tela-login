@@ -16,33 +16,40 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
+    background: black url(../imagens/fundo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-main > section { 
+main > section#login { 
     position: absolute;
-    background-color:white;
+    background-color:rgba(0, 0, 0, 0.836);
     width: 250px;
-    height:450px;
+    height:480px;
     border-radius: 10px;
     margin: auto;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 
 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition-timing-function: ease;
+    transition: width .3s, heigth .3s;
 }
 
 div.info {
-    color: yellow;
-    background: black url(../imagens/fundo.jpg);
+    color:white;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px black;
     width: 100%;
-    height: 40%
+    height: 30%
+
 
 }
 
@@ -55,43 +62,66 @@ section h1 {
 
 section p {
     font-size: 1em;
-    margin: 8px;
-    margin: 10px;
+    margin: 5px;
 }
 
 div.campo {
     width: 100%;
+    height: 50px;
     color: white;
-    padding: 10px;
-
+    padding: 5px;
     margin: 8px;
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+form > div.campo > i {
+    font-size:2em;
+    width: 33px;
+}
+
+form > div.campo > input {
+    font-size: 1em;
+    border: 2px solid black;
+    background-color:white;
+    border-radius: 8px;
+    padding: 8px;
+    width: calc(100% - 49px);
+    transform: translateY(-7px);
 }
 
 form > input[type="submit"] {
-    padding: 5px;
+    padding: 8px;
+    font-size: 1em;
     color: white;
-    border-radius: 4px;
-    background-color: black;
+    border-radius: 5px;
+    background-color:red;
     border: none;
     width: 100%;
     display: block;
     margin: 10px 0px;
-
     font-size: 1em;
 
 }
 
+form > input[type="submit"]:hover {
+    background-color: rgb(182, 3, 3);
+}
+
 form > a {
     text-align: center;
+    text-decoration: none;
     font-size: 1em;
     padding: 5px;
     color: white;
-    border-radius: 4px;
-    background-color: black;
+    border-radius: 5px;
+    background-color:red;
     border: none;
     width: 100%;
     display: block;
     margin: auto;
 }
- 
+
+form > a:hover {
+    background-color: rgb(182, 3, 3);
+}
+
