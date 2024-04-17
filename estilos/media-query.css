@@ -2,9 +2,26 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
     main > section#login {
-        width: 400px;
-        height: 500px;
+        width: 350px;
+        height: 330px;
     }
+
+    form > input[type="submit"] {
+        width: 90%;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+        margin-bottom: 7px;
+    }
+
+    form > a {
+        width: 90%;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+    }
+
+
     
 }
 

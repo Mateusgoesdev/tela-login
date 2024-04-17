@@ -100,11 +100,11 @@ form > input[type="submit"] {
     display: block;
     margin: 10px 0px;
     font-size: 1em;
-
 }
 
 form > input[type="submit"]:hover {
     background-color: rgb(182, 3, 3);
+    cursor: pointer;
 }
 
 form > a {
@@ -123,5 +123,6 @@ form > a {
 
 form > a:hover {
     background-color: rgb(182, 3, 3);
+    cursor: pointer;
 }
 
