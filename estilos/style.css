@@ -26,8 +26,8 @@ body {
 main > section#login { 
     position: absolute;
     background-color:rgba(0, 0, 0, 0.836);
-    width: 250px;
-    height:480px;
+    width: 280px;
+    height:360px;
     border-radius: 10px;
     margin: auto;
     overflow: hidden;
@@ -57,12 +57,15 @@ section h1 {
     font-size: 2em;
     text-align: center;
     padding: 20px;
-    text-shadow: 10px black;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bolder;
 }
 
 section p {
     font-size: 1em;
     margin: 5px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px black;
 }
 
 div.campo {
@@ -76,26 +79,27 @@ div.campo {
 
 form > div.campo > i {
     font-size:2em;
-    width: 33px;
+    width: 30px;
 }
 
 form > div.campo > input {
     font-size: 1em;
     border: 2px solid black;
     background-color:white;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 8px;
-    width: calc(100% - 49px);
+    width: calc(100% - 42px);
     transform: translateY(-7px);
 }
 
 form > input[type="submit"] {
+    font-weight: bold;
     padding: 8px;
     font-size: 1em;
     color: white;
     border-radius: 5px;
     background-color:red;
-    border: none;
+    border: 2px solid black;
     width: 100%;
     display: block;
     margin: 10px 0px;
@@ -109,13 +113,14 @@ form > input[type="submit"]:hover {
 
 form > a {
     text-align: center;
+    font-weight: bold;
     text-decoration: none;
     font-size: 1em;
     padding: 5px;
     color: white;
     border-radius: 5px;
     background-color:red;
-    border: none;
+    border: 2px solid black;
     width: 100%;
     display: block;
     margin: auto;
@@ -125,4 +130,22 @@ form > a:hover {
     background-color: rgb(182, 3, 3);
     cursor: pointer;
 }
+
+form #icon {
+    font-size: 1.2em;
+    padding: 4px;
+}
+
+a.cadastro {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px solid black;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+a.cadastro:hover {
+    color: lightgray;
+}
+
 

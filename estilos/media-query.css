@@ -14,6 +14,11 @@
         margin-bottom: 7px;
     }
 
+    form > div.campo > input {
+        width: 82.5%;
+        
+    }
+
     form > a {
         width: 90%;
         border: 1px solid black;
@@ -27,15 +32,59 @@
 
 @media screen and (min-width:992px) and (max-width:1200px) {
     main > section#login {
-        width: 400px;
-        height: 600px;
+        width: 420px;
+        height: 340px;
     }
+
+    form > div.campo > input {
+        width: 85%;
+
+    }
+
+    form > input[type="submit"] {
+        width: 90%;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+        margin-bottom: 7px;
+
+    }
+
+    form > a {
+        width: 90%;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+    }
+
 
 }
 
 @media screen and (min-width:1200px) {
     main > section#login {
-        width: 400px;
-        height: 600px;
+        width: 500px;
+        height: 450px;
     }
+
+    form > div.campo > input {
+        width: 86.3%;
+
+    }
+
+    form > input[type="submit"] {
+        width: 90%;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+
+    form > a {
+        width: 90%;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+    }
+
 }
