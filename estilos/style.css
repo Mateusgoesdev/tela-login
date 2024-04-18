@@ -27,7 +27,7 @@ main > section#login {
     position: absolute;
     background-color:rgba(0, 0, 0, 0.836);
     width: 280px;
-    height:360px;
+    height:440px;
     border-radius: 10px;
     margin: auto;
     overflow: hidden;
@@ -84,7 +84,6 @@ form > div.campo > i {
 
 form > div.campo > input {
     font-size: 1em;
-    border: 2px solid black;
     background-color:white;
     border-radius: 5px;
     padding: 8px;
@@ -111,12 +110,17 @@ form > input[type="submit"]:hover {
     cursor: pointer;
 }
 
-form > a {
+p.ou {
+    color: white;
+    text-align: center;
+}
+
+form > a.cadastro {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
     font-size: 1em;
-    padding: 5px;
+    padding: 8px;
     color: white;
     border-radius: 5px;
     background-color:red;
@@ -126,18 +130,14 @@ form > a {
     margin: auto;
 }
 
-form > a:hover {
+form > a.cadastro:hover {
     background-color: rgb(182, 3, 3);
     cursor: pointer;
 }
 
-form #icon {
-    font-size: 1.2em;
-    padding: 4px;
-}
-
 a.cadastro {
     text-decoration: none;
+    display: block;
     color: white;
     text-shadow: 1px solid black;
     font-weight: bold;
@@ -146,6 +146,34 @@ a.cadastro {
 
 a.cadastro:hover {
     color: lightgray;
+}
+
+form > a.esqueci {
+    color: white;
+    display: block;
+    padding:10px;
+    text-decoration: none;
+}
+
+form > a.esqueci:hover {
+    color: rgba(247, 246, 246, 0.74);
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.836);
+    padding: 6px;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: underline;
+    color:white;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 
