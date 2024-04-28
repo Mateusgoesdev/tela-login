@@ -35,19 +35,37 @@ main form {
 }
 
 main form > div {
-    margin: 10px;
+    width:100%;
+    margin: 7px;
 }
 
 main form > div > label {
     font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
 main form > div input.caixa {
+    width: 90%;
+    margin:auto;
     font-size: 1em;
     background-color:white;
     border-radius: 5px;
     padding: 4px;
+    margin: auto;
 }
 
-footer {
+form > input[type="submit"] {
+    font-weight: bold;
+    padding: 7px;
+    font-size: 1em;
+    color: white;
+    border-radius: 5px;
+    background-color:red;
+    border: 1px solid black;
+    width: 90%;
+    display: block;
+    margin: 10px 0px;
+    font-size: 1em;
+    margin:auto;
 }
+

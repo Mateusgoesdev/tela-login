@@ -98,7 +98,7 @@ form > input[type="submit"] {
     color: white;
     border-radius: 5px;
     background-color:red;
-    border: 2px solid black;
+    border: 1px solid black;
     width: 100%;
     display: block;
     margin: 10px 0px;
