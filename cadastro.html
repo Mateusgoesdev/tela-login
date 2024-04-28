@@ -4,7 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos/style-cadastro.css">
 </head>
-<body>
+<body></body>
+    <main>
+        <form action="tela.php" method="post" autocomplete="on">
+            <div>
+                <label for="inome">Nome</label> <br>
+                <input type="text" name="nome" id="inome" autocomplete="username" required minlength="3" maxlength="15" placeholder="Digite seu nome" class="caixa">
+            </div>
+
+            <div>
+                <label for="isexo">Sexo</label> <br>
+                <input type="radio" name="sexo" id="isexo"> Masculino
+                <input type="radio" name="sexo" id="isexo"> Feminino
+            </div>
+
+            <div>
+                <label for="iidade">Idade</label> <br>
+                <input class="caixa" type="number" name="idade" id="iidade" required min="18" placeholder="Digite sua idade">
+            </div>
+
+            <div>
+                <label for="itel">Telefone</label> <br>
+                <input type="number" name="tel" id="itel" required minlength="8" maxlength="11" placeholder="(xx) xxxxx-xxxx" pattern="^\(d{2}\)\d{5}-\d{4}$" class="caixa">
+            </div>
+
+            <div>
+                <label for="icpf">CPF</label> <br>
+                <input type="number" name="cpf" id="icpf" required minlength="10" maxlength="10" placeholder="xxx.xxx.xxx-xx" class="caixa">
+            </div>
+
+            <div>
+                <label for="iemail">E-mail</label> <br>
+                <input class="caixa" type="email" name="email" id="iemail" required minlength="15" max="20" placeholder="Digite seu e-mail" autocomplete="email">
+            </div>
+
+            <label for="icheck">Li e aceito os termos</label>
+            <input type="checkbox" name="confirm" id="icheck" required> <br>
+
+            <input type="submit" value="C">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
