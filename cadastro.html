@@ -43,17 +43,16 @@
             <label for="icheck" class="aut">Li e aceito os termos</label>
             <input type="checkbox" name="confirm" id="icheck" required> <br>
 
-            <input type="submit" value="Cadastrar-se">
+            <a href="promoções.html" class="cadastre-se" id="botao">Cadrastar-se</a>
 
             <a href="index.html">Já possui Login?</a>
             
         </form>
-
-
     </main>
 
-    <footer>
-
-    </footer>
+    <script src="aivso.js">
+        var botao = document.getElementById('botao')
+        botao.addEventListener('clic',()=>{alert('Cadastrado com Sucesso')})      
+        </script>
 </body>
 </html>

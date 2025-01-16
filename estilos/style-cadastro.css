@@ -70,7 +70,7 @@ form label.aut {
     margin:7px 5px;
 }
 
-form > input[type="submit"] {
+form > a.cadastre-se {
     font-weight: bold;
     padding: 9px;
     font-size: 1em;
@@ -85,7 +85,7 @@ form > input[type="submit"] {
     margin:auto;
 }
 
-form > input[type="submit"]:hover {
+form > a.cadastre-se:hover {
     background-color: rgb(182, 3, 3);
     cursor: pointer;
 }
